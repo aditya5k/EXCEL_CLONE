@@ -1,0 +1,98 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.menu-options{
+    border: 0.5px solid;
+    height: 30px;
+
+
+}
+.adress-content{
+    border: 0.5px solid;
+    height: 25px;
+
+
+}
+.cells-content{
+    height: 85vh ;
+    background-color: blanchedalmond;
+    overflow: auto;
+    position: relative;
+}
+.sheets{
+    border: 0.5px solid;
+    height: 30px;
+
+}
+.row{
+    display: flex;
+
+}
+.cell{
+    border: 0.2px solid;
+    min-height: 30px;
+    width: 100px;
+    outline: none;
+}
+.top-left-cell{
+    border-right: 0.1px solid;
+    border-bottom: 0.1px solid;
+    height: 30px;
+    width: 30px;
+    background-color: grey;
+    position: absolute;
+    z-index: 8;
+}
+.top-row-cell{
+    height: 30px; 
+    width: 100px;
+    border-bottom: 0.1 solid;
+    border-left: 0.1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.left-col{
+    background-color: grey;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    z-index: 2;
+
+
+}
+.top-row{
+    display: flex;
+    position: absolute;
+    /* background-color: aquamarine; */
+    background-color:grey;
+    left: 30px;
+    z-index: 3;
+
+
+}
+.left-col-cell{
+    height: 30px ;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.cells{
+    position: absolute;
+    top: 30px;
+    left: 30px; 
+
+}
+#adress{
+    text-align: center;
+    font-size: large;
+    width: 60px;
+}
